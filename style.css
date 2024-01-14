@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: url('bc2.jpg') center/cover no-repeat, lightgreen;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  border: 1px solid white;
+}
+
+h1 {
+  color: white;
+}
+
+.score-block {
+  color: white;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+#score {
+  color: orange;
+}
+
+#max-score {
+  color: plum;
+}
+
+.board {
+  border: 1px solid white;
+}
